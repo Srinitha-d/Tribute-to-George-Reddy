@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+
+}
+.container{
+    max-width: 90rem;
+    margin: 2 rem auto;
+    padding: 0px 2rem;
+    
+}
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+header>.title{
+    margin-bottom: 1rem;
+}
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 75rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    border-style: dashed;
+    border-color:black;
+    
+}
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+.tribute img{
+    max-width: 100%;
+
+}
+.bio{
+    margin:2rem auto ;
+    padding: 0px 0.5rem;
+    max-width: 50rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bio>h2{
+    margin-bottom:  1rem;
+    font-size: 3rem;
+    line-height: 1.2; 
+}
+bio > p{
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+.bio >hr{
+    margin-top: 2rem;
+}
+.quote{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
